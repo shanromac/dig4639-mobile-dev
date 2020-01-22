@@ -7,4 +7,6 @@ This is a change on the local repository.
 The *ice* folder contains in-class exercises. 
 
 ## About Me
-This is a different change than the local repository.
+This should be replaced.
+
+This is the change.
