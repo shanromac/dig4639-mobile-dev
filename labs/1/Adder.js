@@ -12,4 +12,4 @@ class Adder{
 }
 
 
-module.exports = Adder;
+module.exports = Adder; 
