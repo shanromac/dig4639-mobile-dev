@@ -1,10 +1,10 @@
 import Component from "./Component.js";
-import Task from "./task.js";
+import Task from "./Task.js";
 function runOnLoad()
 {
     
     let element = document.createElement("div");
-    element.id = "container";
+    element.id = "Test";
     document.body.appendChild(element);
     // console.log(x);
     var comp = new Component(document.getElementById("addTask"));
