@@ -22,7 +22,7 @@ function onClick() {
     span.innerHTML = taskInput.value;
     newTask.appendChild(input);
     newTask.appendChild(span);
-    
+
     function onChange() {
         console.log(span.innerHTML);
     }
