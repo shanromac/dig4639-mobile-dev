@@ -1,5 +1,7 @@
-console.log("Hello World");
+console.log("hi");
 var x = 1;
+//var y = new Array();
+//y[0] = 1;
 var y = [1];
 function scopeDemo(y1) {
     console.log(x)
@@ -18,4 +20,7 @@ function scopeDemo(y1) {
 }
 x = scopeDemo(y1);
 console.log(y);
+<<<<<<< HEAD
 console.log(0);
+=======
+>>>>>>> e8664df465d730f964f6c7bbcad745e93755b2fa
