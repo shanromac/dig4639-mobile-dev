@@ -15,8 +15,11 @@ function runOnLoad()
 
 function onClick() {
     console.log("clicked!");
-    var newTask = new Task({content:input.value,done:false});
-    element.appendChild(newTask.render());
+    console.log(document.getElementById("task"));
+    if (document.getElementById("task") != undefined){
+        var newTask = new Task({content:input.value,done:false});
+        element.appendChild(newTask.render());
+    }   
 }
 
 /*function onClick() {
