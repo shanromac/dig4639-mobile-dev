@@ -1,10 +1,14 @@
 import Component from "./Component.js";
+<<<<<<< HEAD:ice/w4/src/index.js
 import Task from "./task.js";
+=======
+import Task from "./Task.js";
+>>>>>>> 74c07367c17264209c7ff79158298be664c64ea5:ice/w4b/src/index.js
 function runOnLoad()
 {
     
     let element = document.createElement("div");
-    element.id = "container";
+    element.id = "Test";
     document.body.appendChild(element);
     // console.log(x);
     var comp = new Component(document.getElementById("addTask"));
