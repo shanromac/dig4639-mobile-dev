@@ -11,5 +11,9 @@ class Entry {
     }
   
   }
+
+  class card {
+  }
   
+
   export default Entry;
