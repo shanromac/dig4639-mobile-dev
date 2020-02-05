@@ -1,3 +1,5 @@
+import Entry from "./src/components/Card/index.js";
+
 class Element {
     set component(component) {
       this.component = component;
