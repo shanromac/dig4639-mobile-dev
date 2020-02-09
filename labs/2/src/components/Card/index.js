@@ -1,19 +1,19 @@
 import "./index.css";
 
-class Entry {
-
-    constructor(props) {
+class Card {
+  constructor(props) {
+      // Stores the argument in this.props
       this.props = props;
-    }
-  
-    render() {
-      `<h1 class="title">${this.props.title}</h1>`;
-    }
-  
+      // Creates a new HTML DIV element
+      this.element = document.createElement("div");
+      let span = document.createElement("span");
+      this.element.appendChild(span);
+      span.innerHTML = this.props.content;
+      this.element.className = "card";
   }
-
-  class card {
+  render() {
+    return this.element;
   }
-  
+}
 
-  export default Entry;
+export default Card;
