@@ -2,9 +2,16 @@
 Working in a team of 2-3, start with the code in ice/w5a in the class repository.
 
 ## Team Members
+<<<<<<< HEAD
   - andrewkaimana
   - shanromac
   
+=======
+ - 
+ - 
+ - 
+
+>>>>>>> 46b90aafffc8bfc39bdb4e5bfc9a2298d3dcd03b
 ## TODO App Requirements
 
   - Refactor (by moving) the HTML currently in the file to be rendered by the “Task” class.
