@@ -3,12 +3,10 @@ import './index.css';
 
 class Card extends React.Component {
   render() {
-  return(
-  <div class="title">
-    <h3>{this.props.title}</h3>
-    <p>{this.props.content}</p>
-  </div>
-  );
+    return <p className='card'>{this.props.content}<input type="button" value="X"
+    onClick={() => this.props.removeTask(this.props.id)} /></p>
+
+
   }
 }
 

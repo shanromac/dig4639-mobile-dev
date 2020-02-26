@@ -6,8 +6,13 @@
     padding: 1em;
   }
   
-  .close {
+.close {
     font-size: 1.5em;
     float: right;
     cursor: pointer;
   } 
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
