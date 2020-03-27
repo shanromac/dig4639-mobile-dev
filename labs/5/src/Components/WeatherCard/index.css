@@ -1,8 +1,10 @@
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 80%;
-  margin: auto;
-  text-align: center;
-  padding: 1em;
-  transition: opacity 1s;
-}
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    transition: opacity 1s;
+    background-image: url("https://www.watersliderentalswesternma.com/Dunk_Tank_Rentals_in_Western_MA_files/cloud_2_4.gif");
+    border: 2px solid black;
+  }
