@@ -33,9 +33,4 @@ class CardList extends React.Component {
             temperatureUnit={v.temperatureUnit}
             detailedForecast={v.detailedForecast}
           />)}
-      </>
-    )
-  }
-}
-
-export default CardList
+      </> )}} export default CardList
