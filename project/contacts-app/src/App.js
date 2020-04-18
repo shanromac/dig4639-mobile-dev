@@ -73,6 +73,7 @@ class App extends React.Component {
     <div>
       <h2 className="header mt-3">Contacts App</h2>
       <form onSubmit={this.add}>
+      <hr />
         <fieldset>
           <legend className="legend ml-3"><strong>New Contact</strong></legend>
           <input ref="firstName" type='text' placeholder='First' className="inputBox ml-2"/>
@@ -80,23 +81,24 @@ class App extends React.Component {
           <input ref="phoneNum" type='text' placeholder='Phone Number' className="inputBox ml-2"/>
           < br/>
           < br/>
-          <button type="submit" className="myButton ml-2 col-3">Add</button>
+          <button type="submit" className="addButton ml-2 col-3">Add</button>
         </fieldset>
+      <hr />
       </form>
+
       <div>
-        <hr />
         <h3 className="header2 ml-2">Your Profile:</h3>
         <p className="profile ml-2"><strong>Name:</strong> {this.state.profile.name} <br />
-        <strong>Total Entries:</strong> {this.state.profile.count}</p>
-        <hr />
+        <strong>Entries:</strong> {this.state.profile.count}</p>
       </div>
+
       <div>
         <h3 className="header2 ml-2">Contact List:</h3>
        {
          this.state.contacts.map((value, index) => {
-           return <p className="contacts ml-2" key={index}>{index + 1}. <u>Name:</u> {value.name}<br />
-           &nbsp;&nbsp;&nbsp;<u>Phone #:</u> {value.number}<button type="submit" 
-           onClick={() => this.delete(index)} className="myButton2 col-3 offset-1 ml-5" id={index}>Delete</button></p>;
+           return <p className="contacts ml-2" key={index}><strong>{index + 1}</strong>. <strong><u>Name:</u></strong> {value.name}<br />
+           &nbsp;&nbsp;&nbsp;<strong><u>Number:</u></strong> {value.number}<button type="submit" 
+           onClick={() => this.delete(index)} className="delButton col-3 offset-1 ml-5" id={index}>Delete</button></p>;
          })
        }
       </div>
