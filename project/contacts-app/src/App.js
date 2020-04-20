@@ -120,7 +120,7 @@ class App extends React.Component {
       <div>
         <h3 className="header2 ml-2" style={{display: "flex",
           justifyContent: "center",
-          alignItems: "center"}}>Contact List:</h3>
+          alignItems: "center"}}>Contacts List:</h3>
        {
          this.state.contacts.map((value, index) => {
            return <p className="contacts ml-2" key={index}><strong>{index + 1}</strong>. <strong><u>Name:</u></strong> {value.name}<br />
